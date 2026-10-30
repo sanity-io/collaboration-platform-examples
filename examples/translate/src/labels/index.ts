@@ -8,11 +8,7 @@ import {norwegian} from './norwegian'
 // are not part of `CommentsLabels`, so each language carries them beside it.
 export interface AppStrings {
   title: string
-  theme: string
   language: string
-  themes: {default: string; brand: string; playful: string}
-  darkMode: string
-  lightMode: string
   comments: string
   starting: string
   signingIn: string
@@ -30,12 +26,8 @@ export const languages = {
     name: 'English',
     labels: english,
     app: {
-      title: 'Theme and translate',
-      theme: 'Theme',
+      title: 'Translate',
       language: 'Language',
-      themes: {default: 'Default', brand: 'Brand', playful: 'Playful'},
-      darkMode: 'Dark mode',
-      lightMode: 'Light mode',
       comments: 'Comments',
       starting: 'Starting…',
       signingIn: 'Finding out who you are…',
@@ -46,12 +38,8 @@ export const languages = {
     name: 'Norsk',
     labels: norwegian,
     app: {
-      title: 'Tema og oversettelse',
-      theme: 'Tema',
+      title: 'Oversettelse',
       language: 'Språk',
-      themes: {default: 'Standard', brand: 'Merkevare', playful: 'Leken'},
-      darkMode: 'Mørk modus',
-      lightMode: 'Lys modus',
       comments: 'Kommentarer',
       starting: 'Starter…',
       signingIn: 'Finner ut hvem du er…',
@@ -62,12 +50,8 @@ export const languages = {
     name: 'Deutsch',
     labels: german,
     app: {
-      title: 'Design und Übersetzung',
-      theme: 'Design',
+      title: 'Übersetzung',
       language: 'Sprache',
-      themes: {default: 'Standard', brand: 'Marke', playful: 'Verspielt'},
-      darkMode: 'Dunkler Modus',
-      lightMode: 'Heller Modus',
       comments: 'Kommentare',
       starting: 'Wird gestartet…',
       signingIn: 'Anmeldung wird geprüft…',

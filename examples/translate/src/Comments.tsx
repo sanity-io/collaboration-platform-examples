@@ -1,10 +1,9 @@
-import {SDKCommentsProvider} from '@sanity/collaboration/sdk'
+import {SDKCommentsPanel, SDKCommentsProvider} from '@sanity/collaboration/sdk'
 import {Box, Heading, Stack} from '@sanity/ui'
 import {Suspense} from 'react'
 
 import {config} from './config'
 import type {Language} from './labels'
-import {Panel} from './Panel'
 
 const handle = {
   documentId: config.documentId,
@@ -24,7 +23,7 @@ export function Comments({language}: {language: Language}) {
           <Stack gap={4}>
             <Heading size={1}>{app.comments}</Heading>
             <Suspense fallback={<p>{app.loading}</p>}>
-              <Panel handle={handle} />
+              <SDKCommentsPanel {...handle} compose={{fieldPath: 'title'}} />
             </Suspense>
           </Stack>
         </Box>

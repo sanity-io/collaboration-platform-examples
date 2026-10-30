@@ -1,35 +1,25 @@
-// "Import the Sanity UI stylesheet"
 import '@sanity/ui/styles.css'
 import {AuthBoundary, SanityApp} from '@sanity/sdk-react'
 import {Card, ThemeProvider} from '@sanity/ui'
+import {buildTheme} from '@sanity/ui/theme'
 import {useState} from 'react'
 
 import {Comments} from './Comments'
 import {config} from './config'
 import {type LanguageKey, languages} from './labels'
-import {type ThemeKey, themes} from './themes'
 import {TopNav} from './TopNav'
 
+const theme = buildTheme()
+
 export function App() {
-  const [themeKey, setThemeKey] = useState<ThemeKey>('brand')
   const [languageKey, setLanguageKey] = useState<LanguageKey>('en')
-  const [scheme, setScheme] = useState<'light' | 'dark'>('light')
   const language = languages[languageKey]
 
   return (
-    // "Use the dark color scheme": a prop on `ThemeProvider`, not part of
-    // the theme. Switching theme passes another prebuilt one.
-    <ThemeProvider scheme={scheme} theme={themes[themeKey]}>
+    <ThemeProvider theme={theme}>
       {/* Sanity UI paints no background of its own, so a `Card` does. */}
       <Card style={{minHeight: '100vh'}}>
-        <TopNav
-          themeKey={themeKey}
-          onThemeChange={setThemeKey}
-          languageKey={languageKey}
-          onLanguageChange={setLanguageKey}
-          scheme={scheme}
-          onSchemeChange={setScheme}
-        />
+        <TopNav languageKey={languageKey} onLanguageChange={setLanguageKey} />
         <SanityApp
           config={{
             projectId: config.projectId,
