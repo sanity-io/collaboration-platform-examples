@@ -58,6 +58,6 @@ export const norwegian: CommentsLabels = {
 
 // "Translate the text inside a comment": one panel's comments worded
 // differently from the rest of the app.
-export const reviewLabels: Partial<CommentLabels> = {
+export const norwegianReview: Partial<CommentLabels> = {
   actions: {resolve: 'Godkjenn'},
 }
