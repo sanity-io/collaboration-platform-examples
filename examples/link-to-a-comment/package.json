@@ -1,0 +1,30 @@
+{
+  "name": "link-to-a-comment",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "check:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@portabletext/editor": "^8.2.4",
+    "@sanity/collaboration": "^0.3.0",
+    "@sanity/icons": "^5.2.1",
+    "@sanity/sdk": "^3.11.0",
+    "@sanity/sdk-react": "^3.11.0",
+    "@sanity/ui": "^4.0.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router": "^8.5.1",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "sanity": "^6.21.0",
+    "typescript": "^6.0.3"
+  }
+}
