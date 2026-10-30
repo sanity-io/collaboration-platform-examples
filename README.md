@@ -14,7 +14,7 @@ and run it by itself.
 | `use-in-nextjs`                                   | [Use comments in Next.js](https://www.sanity.io/docs/collaboration/use-in-nextjs)               | Coming |
 | `use-in-studio`                                   | [Use comments in Sanity Studio](https://www.sanity.io/docs/collaboration/use-in-studio)         | Coming |
 | [`link-to-a-comment`](examples/link-to-a-comment) | [Link to a comment](https://www.sanity.io/docs/collaboration/link-to-a-comment)                 | Ready  |
-| `enable-mentions`                                 | [Enable mentions](https://www.sanity.io/docs/collaboration/enable-mentions)                     | Coming |
+| [`mentions`](examples/mentions)                   | [Enable mentions](https://www.sanity.io/docs/collaboration/enable-mentions)                     | Ready  |
 | `comment-on-portable-text`                        | [Comment on Portable Text](https://www.sanity.io/docs/collaboration/comment-on-portable-text)   | Coming |
 | `inline-comment-patterns`                         | [Customize inline comments](https://www.sanity.io/docs/collaboration/inline-comment-patterns)   | Coming |
 | `show-comment-counts`                             | [Show comment counts](https://www.sanity.io/docs/collaboration/show-comment-counts)             | Coming |
