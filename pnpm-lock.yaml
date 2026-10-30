@@ -182,8 +182,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -228,8 +228,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -274,8 +274,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -320,8 +320,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -369,8 +369,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -415,8 +415,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -461,8 +461,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -504,8 +504,8 @@ importers:
   examples/sdk-hooks:
     dependencies:
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/sdk':
         specifier: ^3.11.0
         version: 3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3)
@@ -563,8 +563,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/icons':
         specifier: ^5.2.1
         version: 5.2.3(react@19.3.1)
@@ -609,8 +609,8 @@ importers:
         specifier: ^8.2.4
         version: 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@sanity/collaboration':
-        specifier: ^0.3.0
-        version: 0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
+        specifier: ^0.4.0
+        version: 0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@sanity/color':
         specifier: ^3.0.9
         version: 3.0.9
@@ -2606,13 +2606,13 @@ packages:
       oxfmt:
         optional: true
 
-  '@sanity/collaboration@0.3.0':
-    resolution: {integrity: sha512-YMGIV1A8FnJJBkzPctAIMIAPqUnbgetgMRAWmAaSC+WB+FY7sIuUYFEs10C+NiV0DHOSpUloHGUe5TayObcHBg==}
+  '@sanity/collaboration@0.4.0':
+    resolution: {integrity: sha512-mkkuz/mnLDDlInYn6xXina45xVlvQBBuLbiM/H3ecL+ImcpvPJBUCvecwxadexngeHzTBQSm+bJk24z4Yi1tdA==}
     peerDependencies:
       '@portabletext/editor': ^8.2.4
       '@sanity/icons': ^5.2.1
-      '@sanity/sdk': ^3.1.0
-      '@sanity/sdk-react': ^3.1.0
+      '@sanity/sdk': ^3.11.0
+      '@sanity/sdk-react': ^3.11.0
       '@sanity/ui': ^4.0.6
       react: ^19.2
       react-dom: ^19.2
@@ -7365,7 +7365,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@sanity/collaboration@0.3.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))':
+  '@sanity/collaboration@0.4.0(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(@sanity/icons@5.2.3(react@19.3.1))(@sanity/sdk-react@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/sdk@3.11.0(@types/react@19.3.0)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))(xstate@5.33.3))(@sanity/ui@4.4.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))':
     dependencies:
       '@portabletext/editor': 8.2.9(@types/react@19.3.0)(react@19.3.1)
       '@portabletext/plugin-decorations': 1.0.10(@portabletext/editor@8.2.9(@types/react@19.3.0)(react@19.3.1))(react@19.3.1)
