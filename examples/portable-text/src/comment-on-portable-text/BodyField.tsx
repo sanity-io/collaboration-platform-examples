@@ -2,7 +2,6 @@
 import {
   defineSchema,
   EditorProvider,
-  PortableTextEditable,
   type PortableTextBlock,
   useEditor,
 } from '@portabletext/editor'
@@ -13,6 +12,7 @@ import {useCommentThreads} from '@sanity/sdk-react/collaboration'
 import {useEffect} from 'react'
 
 import {config} from '../config'
+import {RichTextEditable} from '../RichTextEditable'
 
 export const schemaDefinition = defineSchema({
   decorators: [{name: 'strong'}, {name: 'em'}],
@@ -32,7 +32,9 @@ export function BodyField({handle}: {handle: DocumentHandle}) {
   return (
     <EditorProvider initialConfig={{schemaDefinition, initialValue: data}}>
       <ValueSync value={data} onChange={editField} />
-      <PortableTextEditable />
+      {/* The guide renders `<PortableTextEditable />`; this adds the toolbar
+          and the bold and italic rendering around it. */}
+      <RichTextEditable />
       <SDKPortableTextComments
         {...handle}
         path={config.portableTextPath}

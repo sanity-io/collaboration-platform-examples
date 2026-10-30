@@ -24,6 +24,8 @@ a nested field, and `PortableTextComments` with your own writes.
 
 `src/inline-comment-patterns/PatternField.tsx` is the editor and value sync
 from Step 3, shared so each pattern file shows only what it changes.
+`src/RichTextEditable.tsx` is the editor chrome both of them render: the
+bold and italic rendering, the toolbar, and the box around the field.
 `src/App.tsx` holds the switcher.
 
 ## How to use
@@ -59,6 +61,11 @@ editor's schema only knows `strong` and `em`. For the nested field pattern, set
   pattern. Without it, it renders the guide's `BodyField`.
 - Each pattern renders the full editor around the guide's snippet, through
   `PatternField`.
+- The editor renders `strong` and `em`, and has a toolbar for both and the
+  `mod+b`/`mod+i` shortcuts, through `RichTextEditable`. The guide renders a
+  bare `PortableTextEditable`, which leaves decorated text looking plain.
+- The panel is fixed to the right edge of the viewport and scrolls on its own,
+  rather than sitting under the editor in the page's flow.
 - "Draw your own highlight" adds colors and a pointer cursor to the `<mark>`,
   so the custom highlight is visible and its active state shows.
 - "Run without the SDK's writes" stands `useCommentActions` in for the
