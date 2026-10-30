@@ -67,5 +67,4 @@ resolve button reads **Approve**. Use the nav to switch:
 - "Translate the text inside a comment", "Restyle the inline highlight",
   "Pass the strings as props", "Rename the default actions" (on
   `commentActions`) and "Timestamps" are not shown: this example has a single
-  panel, no editor and no custom card. `custom-comment` shows a card
-  built from the primitives.
+  panel, no editor and no custom card.
