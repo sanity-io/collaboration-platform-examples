@@ -1,8 +1,8 @@
-import type {CommentLabels, CommentsLabels} from '@sanity/collaboration/ui'
+import type {CommentsLabels} from '@sanity/collaboration/ui'
 
-import {english, englishReview} from './english'
-import {german, germanReview} from './german'
-import {norwegian, norwegianReview} from './norwegian'
+import {english} from './english'
+import {german} from './german'
+import {norwegian} from './norwegian'
 
 // The app's own strings: the nav, the headings and the loading text. These
 // are not part of `CommentsLabels`, so each language carries them beside it.
@@ -14,7 +14,6 @@ export interface AppStrings {
   darkMode: string
   lightMode: string
   comments: string
-  review: string
   starting: string
   signingIn: string
   loading: string
@@ -23,7 +22,6 @@ export interface AppStrings {
 export interface Language {
   name: string
   labels: CommentsLabels
-  review: Partial<CommentLabels>
   app: AppStrings
 }
 
@@ -31,7 +29,6 @@ export const languages = {
   en: {
     name: 'English',
     labels: english,
-    review: englishReview,
     app: {
       title: 'Theme and translate',
       theme: 'Theme',
@@ -40,7 +37,6 @@ export const languages = {
       darkMode: 'Dark mode',
       lightMode: 'Light mode',
       comments: 'Comments',
-      review: 'Review',
       starting: 'Starting…',
       signingIn: 'Finding out who you are…',
       loading: 'Loading comments…',
@@ -49,7 +45,6 @@ export const languages = {
   nb: {
     name: 'Norsk',
     labels: norwegian,
-    review: norwegianReview,
     app: {
       title: 'Tema og oversettelse',
       theme: 'Tema',
@@ -58,7 +53,6 @@ export const languages = {
       darkMode: 'Mørk modus',
       lightMode: 'Lys modus',
       comments: 'Kommentarer',
-      review: 'Gjennomgang',
       starting: 'Starter…',
       signingIn: 'Finner ut hvem du er…',
       loading: 'Laster kommentarer…',
@@ -67,7 +61,6 @@ export const languages = {
   de: {
     name: 'Deutsch',
     labels: german,
-    review: germanReview,
     app: {
       title: 'Design und Übersetzung',
       theme: 'Design',
@@ -76,7 +69,6 @@ export const languages = {
       darkMode: 'Dunkler Modus',
       lightMode: 'Heller Modus',
       comments: 'Kommentare',
-      review: 'Prüfung',
       starting: 'Wird gestartet…',
       signingIn: 'Anmeldung wird geprüft…',
       loading: 'Kommentare werden geladen…',

@@ -1,4 +1,4 @@
-import type {CommentLabels, CommentsLabels} from '@sanity/collaboration/ui'
+import type {CommentsLabels} from '@sanity/collaboration/ui'
 
 // "Translate the UI text" > "Translate the whole surface". English is the
 // default, but spelling it out keeps every language the same shape.
@@ -53,9 +53,4 @@ export const english: CommentsLabels = {
   list: {loading: 'Loading comments…'},
   inline: {button: 'Comment'},
   reactions: {name: (shortName) => REACTION_NAMES[shortName] ?? shortName},
-}
-
-// "Translate the text inside a comment": the review panel's wording.
-export const englishReview: Partial<CommentLabels> = {
-  actions: {resolve: 'Approve'},
 }

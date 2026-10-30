@@ -1,4 +1,4 @@
-import type {CommentLabels, CommentsLabels} from '@sanity/collaboration/ui'
+import type {CommentsLabels} from '@sanity/collaboration/ui'
 
 // "Translate the UI text" > "Translate the whole surface". Defined once,
 // outside render. What is left out keeps the English default.
@@ -54,10 +54,4 @@ export const norwegian: CommentsLabels = {
   list: {loading: 'Laster kommentarer…'},
   inline: {button: 'Kommenter'},
   reactions: {name: (shortName) => REACTION_NAMES[shortName] ?? shortName},
-}
-
-// "Translate the text inside a comment": one panel's comments worded
-// differently from the rest of the app.
-export const norwegianReview: Partial<CommentLabels> = {
-  actions: {resolve: 'Godkjenn'},
 }
