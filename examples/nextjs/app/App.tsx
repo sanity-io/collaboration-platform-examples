@@ -1,3 +1,8 @@
+// `@sanity/ui/styles.css` has a conditional export: only the `browser`
+// condition points at the real stylesheet, the `node` one at a no-op shim. This
+// file is browser-only (loaded through `next/dynamic` with `ssr: false`), so
+// the import resolves to the stylesheet here but would not in the root layout.
+import '@sanity/ui/styles.css'
 import {AuthBoundary, SanityApp} from '@sanity/sdk-react'
 import {ThemeProvider} from '@sanity/ui'
 import {buildTheme} from '@sanity/ui/theme'
