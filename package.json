@@ -1,0 +1,21 @@
+{
+  "name": "collaboration-platform-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "check:types": "pnpm -r check:types",
+    "check:lint": "oxlint",
+    "check:format": "oxfmt --check",
+    "format": "oxfmt"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.75.0",
+    "oxlint": "^1.90.0",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@12.16.1"
+}
