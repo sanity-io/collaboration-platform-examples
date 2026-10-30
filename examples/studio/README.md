@@ -8,7 +8,8 @@ inline composer; each open thread is highlighted under its words. The
 **Comments** inspector beside the form (the comment icon in the document
 header) is the comments panel, and it stays open while you edit. Click a
 highlight and its thread is selected in the panel; click a thread and its
-highlight is selected. Identity comes from the studio's current user and user
+highlight is selected. **Title** and **Body** show their open comment count
+next to the field name, and clicking a count opens the panel. Identity comes from the studio's current user and user
 store, and the comments are read and written through the SDK resource the
 studio mounts.
 
@@ -21,6 +22,7 @@ studio mounts.
 | What a studio already provides  | `src/comments/CommentsInspector.tsx`, `src/comments/InlineCommentsPlugin.tsx` (no theme or styles) |
 | Supply identity from the studio | `src/comments/StudioCommentsProvider.tsx`, mounted in `src/comments/CommentsLayout.tsx`            |
 | (Mount point) Field type        | `src/schemaTypes/commentableText.ts`, used by `body` in `src/schemaTypes/post.ts`                  |
+| Field comment counts            | `src/comments/CommentsField.tsx`, on `title` and on `commentableText`                              |
 | (Mount point) Studio plugin     | `src/comments/CommentsInspector.tsx`, `sanity.config.ts` (`document.inspectors`)                   |
 
 The field type adds the inline comments through the Portable Text plugins slot
