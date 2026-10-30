@@ -6,6 +6,6 @@ export const post = defineType({
   type: 'document',
   fields: [
     defineField({name: 'title', type: 'string'}),
-    defineField({name: 'body', type: 'array', of: [{type: 'block'}]}),
+    defineField({name: 'body', type: 'commentableText'}),
   ],
 })

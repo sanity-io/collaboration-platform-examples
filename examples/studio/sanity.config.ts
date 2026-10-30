@@ -1,8 +1,9 @@
 import {defineConfig} from 'sanity'
 import {structureTool} from 'sanity/structure'
 
+import {CommentsLayout} from './src/comments/CommentsLayout'
+import {commentsInspector} from './src/comments/CommentsInspector'
 import {config} from './src/config'
-import {defaultDocumentNode} from './src/defaultDocumentNode'
 import {schemaTypes} from './src/schemaTypes'
 
 export default defineConfig({
@@ -10,9 +11,15 @@ export default defineConfig({
   title: 'Collaboration studio',
   projectId: config.projectId,
   dataset: config.dataset,
-  // The studio's built-in comments on the Comments API, the same comments the
-  // custom view reads.
-  beta: {comments: {v2: true}},
-  plugins: [structureTool({defaultDocumentNode})],
+  plugins: [structureTool()],
   schema: {types: schemaTypes},
+  studio: {components: {layout: CommentsLayout}},
+  document: {
+    // Only this example's comments UI: the studio's built-in comments (the
+    // field buttons and their inspector) are off.
+    comments: {enabled: false},
+    // The panel goes on posts, the type with the commented `body`.
+    inspectors: (prev, {documentType}) =>
+      documentType === 'post' ? [...prev, commentsInspector] : prev,
+  },
 })
