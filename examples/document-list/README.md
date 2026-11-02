@@ -23,8 +23,8 @@ per row.
 ## How to use
 
 ```sh
-npx degit sanity-io/collaboration-platform-examples/examples/document-list my-app
-cd my-app
+git clone https://github.com/sanity-io/collaboration-platform-examples.git
+cd collaboration-platform-examples/examples/document-list
 cp .env.example .env
 # Fill in your project ID, dataset, organization ID and the document type to list.
 pnpm install

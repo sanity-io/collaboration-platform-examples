@@ -19,8 +19,8 @@ styled-components registry.
 ## How to use
 
 ```sh
-npx degit sanity-io/collaboration-platform-examples/examples/nextjs my-app
-cd my-app
+git clone https://github.com/sanity-io/collaboration-platform-examples.git
+cd collaboration-platform-examples/examples/nextjs
 cp .env.example .env
 # Fill in your project ID, dataset and a document to comment on.
 pnpm install
