@@ -22,8 +22,8 @@ a resolved comment.
 ## How to use
 
 ```sh
-npx degit sanity-io/collaboration-platform-examples/examples/link-to-a-comment my-app
-cd my-app
+git clone https://github.com/sanity-io/collaboration-platform-examples.git
+cd collaboration-platform-examples/examples/link-to-a-comment
 cp .env.example .env
 # Fill in your project ID, dataset, organization ID and a document to comment on.
 pnpm install
