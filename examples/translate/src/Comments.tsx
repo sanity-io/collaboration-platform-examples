@@ -1,4 +1,5 @@
-import {SDKCommentsPanel, SDKCommentsProvider} from '@sanity/collaboration/sdk'
+import {SDKCommentsProvider} from '@sanity/collaboration/sdk'
+import {CommentsPanel} from '@sanity/collaboration/ui'
 import {Box, Heading, Stack} from '@sanity/ui'
 import {Suspense} from 'react'
 
@@ -18,13 +19,11 @@ export function Comments({language}: {language: Language}) {
       {/* "Translate the whole surface": reaches every component below.
           Each language's object is defined once, so switching passes a
           new, stable object rather than one rebuilt on every render. */}
-      <SDKCommentsProvider labels={language.labels}>
+      <SDKCommentsProvider document={handle} labels={language.labels}>
         <Box padding={4} style={{maxWidth: 720}}>
           <Stack gap={4}>
             <Heading size={1}>{app.comments}</Heading>
-            <Suspense fallback={<p>{app.loading}</p>}>
-              <SDKCommentsPanel {...handle} compose={{fieldPath: 'title'}} />
-            </Suspense>
+            <CommentsPanel compose={{fieldPath: 'title'}} />
           </Stack>
         </Box>
       </SDKCommentsProvider>

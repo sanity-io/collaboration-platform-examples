@@ -1,5 +1,4 @@
 import {type CommentStatus, withCommentAddress} from '@sanity/collaboration'
-import {useSDKThreadCallbacks} from '@sanity/collaboration/sdk'
 import {
   CommentInput,
   CommentList,
@@ -11,14 +10,8 @@ import {
 } from '@sanity/sdk-react/collaboration'
 import {Card, Select, Stack} from '@sanity/ui'
 
-import {config} from './config'
+import {handle} from './config'
 import {JumpToFirst} from './JumpToFirst'
-
-// Defined once, outside render: it is a subscription key.
-const handle = {
-  documentId: config.documentId,
-  documentType: config.documentType,
-}
 
 export function Threads(props: {
   status: CommentStatus | undefined
@@ -28,7 +21,6 @@ export function Threads(props: {
   // Omitting `status`, which is what `undefined` does, reads open and
   // resolved threads together.
   const {threads, isPending} = useCommentThreads({...handle, status})
-  const threadCallbacks = useSDKThreadCallbacks(handle)
   const {createComment} = useCommentActions()
 
   return (
@@ -55,7 +47,6 @@ export function Threads(props: {
           <CommentThread
             key={thread.threadId}
             thread={thread}
-            {...threadCallbacks(thread)}
             // "Add a Copy link action"
             onCopyLink={(comment) => {
               const url = new URL(window.location.href)

@@ -2,9 +2,8 @@
 
 A list of documents with a comment count on each row, and a detail view for
 the selected document: a badge per field, a hover preview of the field's
-newest thread, and the threads below. A switch turns the threads into a
-read-only `CommentsPanel`. Counts come from one read per surface, never one
-per row.
+newest thread, and the threads below. Counts come from one read per surface,
+never one per row.
 
 ## Guides
 
@@ -18,7 +17,6 @@ per row.
 | Show comment counts    | Render the empty, unread, and resolved states | `src/DocumentComments.tsx` (`FieldBadge`)      |
 | Show comment counts    | Open a thread from a badge                    | `src/DocumentComments.tsx` (`list` ref)        |
 | Show a comment preview | Render the preview, Clamp the message         | `src/CommentPreview.tsx`, `src/FieldBadge.tsx` |
-| Show a comment preview | Make the panel read-only                      | `src/ReadOnlyPanel.tsx`                        |
 
 ## How to use
 
@@ -41,8 +39,7 @@ the badge to see the preview. The row's count in the list updates too.
 
 - The guide reads `useCommentThreads({...handle, status: 'open'})`. This
   example reads both statuses and filters to open threads itself, because the
-  resolved badge state needs the resolved threads and `CommentsPanel` takes
-  threads of both statuses.
+  resolved badge state needs the resolved threads.
 - `openPanel('title')` in the guide becomes: scroll the list to the field if it
   has open threads, otherwise open a composer for the first one (a field with
   no threads has no group to scroll to).

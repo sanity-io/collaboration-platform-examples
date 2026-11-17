@@ -1,5 +1,4 @@
 import type {CommentThreadData} from '@sanity/collaboration'
-import {useSDKThreadCallbacks} from '@sanity/collaboration/sdk'
 import {
   CommentInput,
   type CommentInputHandle,
@@ -11,12 +10,11 @@ import {
   useCommentActions,
   useCommentThreads,
 } from '@sanity/sdk-react/collaboration'
-import {Card, Flex, Heading, Label, Stack, Switch, Text} from '@sanity/ui'
+import {Card, Flex, Heading, Stack, Text} from '@sanity/ui'
 import {useEffect, useMemo, useRef, useState} from 'react'
 
 import {config} from './config'
 import {FieldBadge} from './FieldBadge'
-import {ReadOnlyPanel} from './ReadOnlyPanel'
 
 // The fields to give a badge even before anyone has commented on them.
 const FIELDS = ['title']
@@ -66,8 +64,6 @@ export function DocumentComments(props: {documentId: string}) {
   useEffect(() => {
     if (composing) composer.current?.focus()
   }, [composing])
-  const [readOnly, setReadOnly] = useState(false)
-  const threadCallbacks = useSDKThreadCallbacks(handle)
   const {createComment} = useCommentActions()
 
   return (
@@ -116,30 +112,9 @@ export function DocumentComments(props: {documentId: string}) {
         </Card>
       )}
 
-      <Flex align="center" gap={2}>
-        <Switch
-          id="read-only"
-          checked={readOnly}
-          onChange={() => setReadOnly(!readOnly)}
-        />
-        <Label as="label" htmlFor="read-only" size={1}>
-          Read-only panel
-        </Label>
-      </Flex>
-
-      {readOnly ? (
-        <ReadOnlyPanel threads={threads} listRef={list} />
-      ) : (
-        <CommentList ref={list} threads={openThreads}>
-          {(thread) => (
-            <CommentThread
-              key={thread.threadId}
-              thread={thread}
-              {...threadCallbacks(thread)}
-            />
-          )}
-        </CommentList>
-      )}
+      <CommentList ref={list} threads={openThreads}>
+        {(thread) => <CommentThread key={thread.threadId} thread={thread} />}
+      </CommentList>
     </Stack>
   )
 }

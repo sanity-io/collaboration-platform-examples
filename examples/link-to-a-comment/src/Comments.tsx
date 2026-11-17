@@ -7,6 +7,7 @@ import {SDKCommentsProvider} from '@sanity/collaboration/sdk'
 import {Suspense, useState} from 'react'
 import {useSearchParams} from 'react-router'
 
+import {handle} from './config'
 import {Threads} from './Threads'
 
 // "Link with React Router": the address lives in `?comment=`, so a pasted
@@ -21,6 +22,7 @@ export function Comments() {
   return (
     <Suspense fallback={<p>Resolving your identity…</p>}>
       <SDKCommentsProvider
+        document={handle}
         activeComment={parseCommentAddress(searchParams)}
         onActiveCommentChange={(next) =>
           setSearchParams((params) => withCommentAddress(params, next), {
