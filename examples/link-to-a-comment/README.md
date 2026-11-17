@@ -40,13 +40,11 @@ widens to **All** and the comment is revealed.
 
 ## Differences from the guide
 
-- The guide's snippets show only the provider; this example adds the
-  `CommentList` and `CommentThread` around it, with writes from
-  `useSDKThreadCallbacks` and a `CommentInput` to start threads on `title`.
-- The guide passes `thread.parentComment.id` from a `thread` in scope. Here
-  `JumpToFirst` takes the threads and picks the oldest.
+- Writes on each `CommentThread` come from `SDKCommentsProvider`. The example
+  adds `onCopyLink` and a `CommentInput` that starts threads on `title`. The
+  guide's `Threads` snippet has neither.
 - The status filter is a `Select` with **Open**, **Resolved** and **All**
   (`undefined`), so you can put the list into the state the guide's last
   section is about.
-- Only the React Router recipe is used. The Next.js, Studio, TanStack, path
-  and no-router recipes are left to the guide.
+- Only the React Router recipe is used. The Next.js, TanStack, path and
+  no-router recipes are left to the guide.

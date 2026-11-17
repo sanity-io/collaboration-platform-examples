@@ -4,15 +4,14 @@ import {english} from './english'
 import {german} from './german'
 import {norwegian} from './norwegian'
 
-// The app's own strings: the nav, the headings and the loading text. These
-// are not part of `CommentsLabels`, so each language carries them beside it.
+// The app's own strings: the nav and the headings. These are not part of
+// `CommentsLabels`, so each language carries them beside it.
 export interface AppStrings {
   title: string
   language: string
   comments: string
   starting: string
   signingIn: string
-  loading: string
 }
 
 export interface Language {
@@ -31,7 +30,6 @@ export const languages = {
       comments: 'Comments',
       starting: 'Starting…',
       signingIn: 'Finding out who you are…',
-      loading: 'Loading comments…',
     },
   },
   nb: {
@@ -43,7 +41,6 @@ export const languages = {
       comments: 'Kommentarer',
       starting: 'Starter…',
       signingIn: 'Finner ut hvem du er…',
-      loading: 'Laster kommentarer…',
     },
   },
   de: {
@@ -55,7 +52,6 @@ export const languages = {
       comments: 'Kommentare',
       starting: 'Wird gestartet…',
       signingIn: 'Anmeldung wird geprüft…',
-      loading: 'Kommentare werden geladen…',
     },
   },
 } satisfies Record<string, Language>

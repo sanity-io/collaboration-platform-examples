@@ -22,3 +22,8 @@ export const config = {
     import.meta.env.SANITY_APP_DOCUMENT_TYPE,
   ),
 }
+
+export const handle = {
+  documentId: config.documentId,
+  documentType: config.documentType,
+}
